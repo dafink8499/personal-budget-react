@@ -5,14 +5,18 @@ import {
   BrowserRouter as Router,
   Switch,
   Route
-} from "react-router-dom"
+} from "react-router-dom";
 
-import Menu from './Menu/Menu'
-import Hero from './Hero/Hero'
-import HomePage from './HomePage/HomePage'
-import Footer from './Footer/Footer'
-import AboutPage from './AboutPage/AboutPage'
-import LoginPage from './LoginPage/LoginPage'
+import Menu from './Menu/Menu';
+import Hero from './Hero/Hero';
+import HomePage from './HomePage/HomePage';
+import Footer from './Footer/Footer';
+import AboutPage from './AboutPage/AboutPage';
+import LoginPage from './LoginPage/LoginPage';
+
+import axios from 'axios';
+import Chart from "chart.js";
+import * as d3 from d3;
 
 function App() {
   return (
