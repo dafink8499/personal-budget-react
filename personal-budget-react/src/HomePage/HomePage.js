@@ -1,4 +1,5 @@
 import React from 'react';
+import D3Chart from '../D3Chart/D3Chart';
 import PieChart from '../PieChart/PieChart'
 
 function HomePage() {
@@ -74,7 +75,7 @@ function HomePage() {
                 
           <div className="text-box">
             <h1>d3js Chart</h1>
-                    
+              <D3Chart/>
           </div>
 
         </div>
